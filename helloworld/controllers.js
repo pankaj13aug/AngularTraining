@@ -1,3 +1,6 @@
-function HelloController($scope) {
-$scope.greeting = { text: 'Hello' };
-}
+var app = angular.module("myApp", []);
+
+app.controller("HelloController", function($scope) {
+    $scope.greeting = {text:'hello'};
+});
+

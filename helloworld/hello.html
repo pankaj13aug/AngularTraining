@@ -1,12 +1,13 @@
-<html ng-app>
+<html ng-app="myApp">
 <head>
-<script src="../vendor/angular.min.js"></script>
-<script src="controllers.js"></script>
+
+<script type="text/javascript" src="../vendor/angular.js"></script>
+<script type="text/javascript" src="controllers.js"></script>
 </head>
 <body>
 <div ng-controller="HelloController">
-<input ng-model="greeting.text">
+<input ng-model="greeting.text" type="" name="">
 <p>{{greeting.text}}, World</p>
 </div>
-</body>
+	</body>
 </html>
